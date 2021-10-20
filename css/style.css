@@ -1,0 +1,197 @@
+html {
+  width: auto;
+  height: 100%;
+  background-color: #6e0c0c;
+}
+
+/* Formato de página para index */
+
+.logo {
+  position: relative;
+  width: 50%;
+  margin: 0 1%;
+}
+
+.logo img {
+  width: 24%;
+  position: absolute;
+  left: 4%;
+  opacity: 0.7;
+}
+.cabecalho {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  top: 80px;
+}
+
+.indice {
+  text-align: center;
+}
+
+.indice li {
+  display: inline;
+  margin: 0 30px 0 30px;
+  font-size: 20px;
+}
+
+.indice a {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.indice a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.comando {
+  color: #dbd4d3;
+  width: 19%;
+  position: relative;
+  padding: 2em 0;
+  margin: 0 4%;
+  top: 200px;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+.titulo-comando {
+  text-align: left;
+  margin: 0 0 30px 0;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.comandante:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.vice-comandante:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.comandante,
+.vice-comandante {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+}
+
+.comandante::before {
+  content: "👑";
+}
+
+.vice-comandante::before {
+  content: "⚔️";
+}
+
+.box-reparoArmadura,
+.box-cosmos,
+.box-torreSelo,
+.box-lojaVolumeHabilidade {
+  width: 100%;
+  padding: 2em 0;
+}
+
+.box-cosmos {
+  background: linear-gradient(#6e0c0c, #a71111);
+}
+
+.box-reparoArmadura {
+  background: linear-gradient(#a71111, #6e0c0c);
+}
+
+.box-torreSelo {
+  background: linear-gradient(#6e0c0c, #a71111);
+}
+.box-lojaVolumeHabilidade {
+  background: linear-gradient(#a71111, #6e0c0c);
+}
+
+.reparoArmadura,
+.torreSelo,
+.cosmos,
+.lojaVolumeHabilidade {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #dbd4d3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cosmos {
+  width: 55%;
+  position: relative;
+  left: 20%;
+  padding: 3%;
+}
+
+#reparoArmadura {
+  width: 32%;
+  position: relative;
+  left: 30%;
+  padding: 3%;
+}
+
+#torreSelo {
+  width: 55%;
+  padding: 3%;
+  position: relative;
+  left: 20%;
+}
+
+#lojaVolumeHabilidade {
+  width: 50%;
+  padding: 3%;
+  position: relative;
+  left: 22%;
+}
+
+.box-consideracoes {
+  width: 93%;
+  line-height: 150%;
+  left: 2%;
+  position: relative;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tituloConsideracoes {
+  text-align: center;
+  padding: 3%;
+  font-size: 25px;
+  color: #dbd4d3;
+  font-weight: bold;
+}
+
+.consideracoes,
+.principio {
+  text-justify: auto;
+  padding: 1%;
+  font-size: 90%;
+  color: #f8f7f7b4;
+}
+
+#principio {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 0 40px;
+  color: black;
+  text-align: center;
+}
+
+.copyright {
+  padding: 3em 0;
+  margin: 2%;
+  font-size: 80%;
+  color: #dbd4d3;
+}
