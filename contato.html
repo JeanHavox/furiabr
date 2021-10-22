@@ -5,9 +5,14 @@
     <title>Contato - Furia BR A95</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -37,42 +42,35 @@
       </div>
     </header>
 
-    
     <main>
-      <script type="text/javascript">
-        function mascara(telefone) {
-          if (telefone.value.length == 0) telefone.value = "(" + telefone.value;
-          if (telefone.value.length == 3) telefone.value = telefone.value + ")";
-          if (telefone.value.length == 9) telefone.value = telefone.value + "-";
-        }
-      </script>
-        <section class="content">
-
-          <div class="box-formulario">
-           <p class="titulo-formulario">Entre em contato conosco</p>
-            <form class="form" method="post" action="./email.php">
-              <input type="text" class="formulario" name="nome" placeholder="Nome">
-              <input type="text" class="formulario" name="nick" placeholder="Nick no jogo">
-              <input type="text" class="formulario" name="telefone" onkeypress="mascara(this)" maxlength="15" placeholder="(XX)XXXXX-XXXX">
-              <input type="email" class="formulario" name="email" placeholder="exemplo@exemplo.com.br">
-              <textarea name="mensagem" class="formulario" cols="30" rows="10" placeholder="Digite o motivo do seu contato."></textarea>
-              <input class="enviar" type="submit" value="Enviar">
-            </form>
-         </div>
-        </section>
-        </div>
-      </form>
-
-      <section class="redesSociais">
-        <a class="whatsapp-link" href="https://wa.me/5524981245985" target="_blank">
-        <i class="fa fa-whatsapp"></i>
-        </a>
-
-        <a class="discord-link" href="https://discord.com/invite/KGzqHd9" target="_blank">
-        <i class="fa-brands fa-discord"></i>
+      <section class="inscricao">
+        <p>
+          Faça parte da nossao legião! Atualmente, nossas inscrições estão sendo
+          realizadas pelo Whatsapp. Basta clicar no ícone abaixo que iremos te
+          encaminhar para nosso comandante
+        </p>
+        <a
+          class="whatsapp-link"
+          href="https://wa.me/5524981245985"
+          target="_blank"
+        >
+          <i class="fa fa-whatsapp"></i>
         </a>
       </section>
 
+      <section class="discord">
+        <p>
+          Caso queira participar do nosso Discord aberto, basta clicar no ícone
+          abaixo
+        </p>
+        <a
+          class="discord-link"
+          href="https://discord.gg/RPmUG2rF"
+          target="_blank"
+        >
+          <i class="fa-brands fa-discord"></i>
+        </a>
+      </section>
     </main>
   </body>
 </html>
