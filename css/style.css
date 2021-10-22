@@ -208,7 +208,7 @@ footer {
 }
 
 .titulo-formulario {
-  font-size: 150%;
+  font-size: 120%;
   padding: 0 auto;
   margin: 1% auto;
   color: #dbd4d3;
@@ -242,17 +242,12 @@ footer {
   transform: scale(1.2);
 }
 
-.copyrightContato {
-  position: fixed;
-  top: 100%;
-}
-
 .whatsapp-link {
   position: fixed;
   width: 80px;
   height: 50px;
   bottom: 10%;
-  left: 83%;
+  left: 84%;
   top: 88%;
   right: auto;
   color: #25d355;
