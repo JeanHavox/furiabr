@@ -187,11 +187,96 @@ footer {
   padding: 0 40px;
   color: black;
   text-align: center;
+  left: 0;
+  bottom: 0;
 }
 
-.copyright {
+.copyright,
+.copyrightContato {
   padding: 3em 0;
   margin: 2%;
   font-size: 80%;
   color: #dbd4d3;
+}
+
+.box-formulario {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  margin: 0 25%;
+  left: 12%;
+}
+
+.titulo-formulario {
+  font-size: 150%;
+  padding: 0 9%;
+  margin: 0 20;
+  color: #dbd4d3;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario {
+  display: block;
+  margin: 3% 0 2%;
+  padding: 1% 2%;
+  width: 50%;
+}
+
+.enviar {
+  width: 40%;
+  padding: 1% 0;
+  background-color: #b30c0c;
+  color: #dbd4d3;
+  font-weight: bold;
+  font-size: 120%;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  margin: 0 5%;
+}
+
+.enviar:hover {
+  background: #d60707;
+  transform: scale(1.2);
+}
+
+.copyrightContato {
+  position: absolute;
+  top: 87%;
+  left: 40%;
+}
+
+.whatsapp-link {
+  position: absolute;
+  width: 4%;
+  height: 5%;
+  bottom: 10%;
+  right: 45%;
+  background-color: #25d355;
+  color: #fff;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 200%;
+  box-shadow: 1px 1px 2px #888;
+}
+
+.discord-link {
+  position: absolute;
+  width: 4%;
+  height: 5%;
+  bottom: 10%;
+  right: 53%;
+  background-color: #183153;
+  color: #fff;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 200%;
+  box-shadow: 1px 1px 2px #888;
+}
+
+.fa-whatsapp,
+.fa-discord {
+  margin: 10%;
 }
