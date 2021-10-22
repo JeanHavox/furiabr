@@ -209,8 +209,8 @@ footer {
 
 .titulo-formulario {
   font-size: 150%;
-  padding: 0 9%;
-  margin: 0 auto;
+  padding: 0 auto;
+  margin: 1% auto;
   color: #dbd4d3;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -218,8 +218,8 @@ footer {
 
 .formulario {
   display: block;
-  margin: 3% 0 2%;
-  padding: 1% 2%;
+  margin: 4% 0 2%;
+  padding: 1% 3%;
   width: 50%;
 }
 
@@ -243,37 +243,40 @@ footer {
 }
 
 .copyrightContato {
-  position: absolute;
-  top: 87%;
-  left: 40%;
+  position: fixed;
+  top: 100%;
 }
 
 .whatsapp-link {
-  position: absolute;
+  position: fixed;
   width: 80px;
   height: 50px;
   bottom: 10%;
-  right: 45%;
-  background-color: #25d355;
-  color: #fff;
+  left: 83%;
+  top: 88%;
+  right: auto;
+  color: #25d355;
   border-radius: 10%;
   text-align: center;
-  font-size: 200%;
-  box-shadow: 1px 1px 2px #888;
+  font-size: 300%;
+  box-shadow: 1px 1px 2px none;
+  z-index: 1000;
 }
 
 .discord-link {
-  position: absolute;
+  position: fixed;
   width: 90px;
   height: 50px;
   bottom: 10%;
-  right: 53%;
-  background-color: #183153;
-  color: #fff;
+  left: 90%;
+  top: 88%;
+  right: auto;
+  color: #1a4f99;
   border-radius: 10%;
   text-align: center;
-  font-size: 200%;
-  box-shadow: 1px 1px 2px #888;
+  font-size: 300%;
+  box-shadow: 1px 1px 2px none;
+  z-index: 1000;
 }
 
 .fa-whatsapp,
