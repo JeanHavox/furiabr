@@ -210,7 +210,7 @@ footer {
 .titulo-formulario {
   font-size: 150%;
   padding: 0 9%;
-  margin: 0 20%;
+  margin: 0 auto;
   color: #dbd4d3;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -250,7 +250,7 @@ footer {
 
 .whatsapp-link {
   position: absolute;
-  width: 90px;
+  width: 80px;
   height: 50px;
   bottom: 10%;
   right: 45%;
